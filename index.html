@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Membership</title>
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  
+  <!-- Bootstrap CSS first -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+<!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<!-- Your custom CSS last -->
+<link rel="stylesheet" href="style.css" />
+
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comic+Neue:wght@300;400;700&family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@100..900&family=Oswald:wght@200..700&family=Poppins:wght@100..900&family=Roboto:wght@100..900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top c">
+    <div class="content container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/ogaranya-logo 1.png" alt="Aegis Logo" class="logo" />
+      </a>
+
+      <!-- Toggler for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#mobileNavModal" title="Open navigation menu" aria-label="Open navigation menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Desktop Nav Links -->
+      <div class="navbar-collapse">
+        <ul class="navbar-nav ms-auto mb-5 mb-lg-0">
+          <li class="nav-item px-3"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item px-3"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item px-3"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item px-3"><a class="nav-link" href="#">Privacy Policy</a></li>
+          <li class="nav-item px-3"><a class="nav-link" href="#">Terms & Condition</a></li>
+          <li class="nav-item px-3"><a class="nav-link" href="#">Login</a></li>
+          <li class="nav-item px-3">
+            <a class="primary btn"  href="#">Get Started</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation Modal -->
+  <div class="modal fade" id="mobileNavModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content container">
+        <div class="modal-header">
+          <a class="navbar-brand" href="index.php?id=1">
+            <img src="images/ogaranya-logo 1.png" alt="Aegis Logo" class="logo" />
+          </a>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex flex-column">
+          <ul class="mobile-nav-list list-unstyled flex-grow-1">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#" class="nav-link">Privacy Policy</a></li>
+            <li><a href="#" class="nav-link">Terms & Condition</a></li>
+            <li><a href="#" class="nav-link">Login</a></li>
+            <li class="nav-item px-3">
+            <a class="primary btn"  href="#">Get Started</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-section">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-content">
+        <h1>OgaMembership Management</h1>
+        <p class="subtext">
+          Effortless Membership Management, All in One Place. OgaMembership empowers your organisation to simplify,
+          automate, and take full control of member management.
+        </p>
+        <a class="btn primary">Get Started</a>
+
+        <div class="sub mt-4">
+          <img src="images/pulse effect.png" alt="pulse" class="pulse-img">
+          <p>
+            Manage your business efficiently with our all-in-one solution designed for performance, security, and scalability.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 image text-center">
+        <img src="images/Group 1.png" alt="illustration" class="img-fluid hero-img">
+      </div>
+    </div>
+  </div> 
+
+  <main>
+    <div class="sub-hero">
+  <div class="content container d-flex">
+    <img src="images/Background (2).png" alt="Background 2">
+    <img src="images/Background (1).png" alt="Background 1">
+    <img src="images/Background.png" alt="Background">
+  </div>
+    </div>
+
+    <div class="empowerment">
+    <div class="content container">
+        <div class="d-flex empowerment-content">
+            <div class="image">
+                <img src="images/empowerment.png" alt="">
+            </div>
+            <div class="texts">
+                <h3>Empower Your Business to Thrive with Us</h3>
+                <p>Unlock growth, streamline operations, and achieve success with our innovative solutions.</p>
+                <ul>
+                    <li>Simplify and automate your business processes for maximum efficiency.</li>
+                    <li>Receive tailored strategies to meet business needs and unlock potential.</li>
+                    <li>Grow confidently with flexible solutions that adapt to your business needs.</li>
+                    <li>Make smarter decisions with real-time analytics and performance tracking.</li>
+                    <li>Rely on 24/7 expert assistance to keep your business running smoothly.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="d-flex empowerment-content reverse">
+            <div class="texts">
+                <h3>Eliminate Paperwork, Elevate Productivity</h3>
+                <p>Simplify your operations with seamless digital solutions and
+                    focus on what truly matters.</p>
+                <ul>
+                    <li>Replace manual paperwork with automated workflows.</li>
+                    <li>Secure cloud storage lets you manage documents on the go.</li>
+                    <li>Streamlined processes save time and reduce errors.</li>
+                    <li>Keep your information safe with encrypted storage.</li>
+                    <li>Reduce printing, storage, and administrative expenses.</li>
+                    <li>Go green by minimizing paper use and waste.</li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="images/empowermrt2.png" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="offers">
+        <div class="content2 container">
+            <div class="head">
+            <h3>What Our Software Offers</h3>
+        <p>Our software provides powerful, scalable solutions designed to streamline your business operations.</p>
+           </div>
+           <div class="grid">
+            <div>
+                <img src="images/user-friendly.png" alt="">
+                <h5>User-Friendly Interface</h5>
+                <p>Simplify operations with an intuitive and easy-to-use
+platform.</p>
+            </div>
+            <div>
+                <img src="images/end-end.png" alt="">
+                <h5>End-to-End Automation</h5>
+                <p>Automate repetitive tasks to save time and increase
+efficiency.</p>
+            </div>
+            <div>
+                <img src="images/solutions.png" alt="">
+                <h5>Customizable Solutions</h5>
+                <p>Tailor features to fit your unique business needs and
+workflows.</p>
+            </div>
+            <div>
+                <img src="images/scalable.png" alt="">
+                <h5>Scalable Features</h5>
+                <p>Grow your business with flexible solutions that scale with
+you.</p>
+            </div>
+            <div>
+                <img src="images/enhanced.png" alt="">
+                <h5>Enhanced Security</h5>
+                <p>Protect your data with advanced encryption and security
+protocols.</p>
+            </div>
+            <div>
+                <img src="images/analytics.png" alt="">
+                <h5>Real-Time Analytics</h5>
+                <p>Gain actionable insights with live data tracking and
+reporting.</p>
+            </div>
+           </div>
+        </div>
+    </div>
+
+    <div class="pricing" id="pricing">
+        <div class="content2 container">
+            <div class="head">
+            <h3>Flexible Pricing</h3>
+        <p>Get started for free, upgrade later in our application.</p>
+           </div>
+           <div class="grid">
+            <div class="card">
+                <h5>Basic</h5>
+                <hr>
+                <h3 class="price-tag"> <sup>$</sup> 0 <span id="new">/Unlimited</span></h3>
+
+                <ul>
+                    <li><span id="check"><i class="fas fa-check"></i></span>User Limit 10</li>
+                    <li><span id="check"><i class="fas fa-check"></i></span>Enabled Logged History</li>
+                    <li><span>x</span>Disable Coupon Applicable</li>
+                </ul>
+                <button class="secondary">Order Now</button>
+            </div>
+             <div class="card">
+                <h5>ADVANCE</h5>
+                <hr>
+                <h3 class="price-tag"><sup>$</sup>  1500  <span id="new">/Yearly</span></h3>
+
+                <ul>
+                    <li><span id="check"><i class="fas fa-check"></i></span>User Limit 100</li>
+                    <li><span id="check"><i class="fas fa-check"></i></span>Enabled Logged History</li>
+                    <li><span id="check"><i class="fas fa-check"></i></span>Enabled Coupon Applicable</li>
+                </ul>
+                <button class="secondary">Order Now</button>
+            </div>
+            <div class="card">
+                <h5>PREMIUM</h5>
+                <hr>
+                <h3 class="price-tag"><sup>$</sup>  200  <span id="new">/Monthly</span></h3>
+
+                <ul>
+                    <li><span id="check"><i class="fas fa-check"></i></span>User Limit 30</li>
+                    <li><span id="check"><i class="fas fa-check"></i></span>Enabled Logged History</li>
+                    <li><span id="check"><i class="fas fa-check"></i></span>Enabled Coupon Applicable</li>
+                </ul>
+                <button class="secondary">Order Now</button>
+            </div>
+            <div class="card">
+                <h5>STANDARD</h5>
+                <hr>
+                <h3 class="price-tag"><sup>$</sup>  500  <span id="new">/Quarterly</span></h3>
+
+                <ul>
+                    <li><span id="check"><i class="fas fa-check"></i></span>User Limit 50</li>
+                    <li><span id="check"><i class="fas fa-check"></i></span>Enabled Logged History</li>
+                    <li><span id="check"><i class="fas fa-check"></i></span>Enabled Coupon Applicable</li>
+                </ul>
+                <button class="secondary">Order Now</button>
+            </div>
+            <div class="card">
+                <h5>asda</h5>
+                <hr>
+                <h3 class="price-tag"><sup>$</sup>  12  <span id="new">/Quarterly</span></h3>
+
+                <ul>
+                    <li><span id="check"><i class="fas fa-check"></i></span>User Limit 50</li>
+                    <li><span id="check"><i class="fas fa-check"></i></span>Enabled Logged History</li>
+                    <li><span >x</span>Disable Coupon Applicable</li>
+                </ul>
+                <button class="secondary">Order Now</button>
+            </div>
+            <div class="card">
+                <h5>Unlimitted Group</h5>
+                <hr>
+                <h3 class="price-tag"><sup>$</sup>  1000  <span id="new">Monthly</span></h3>
+
+                <ul>
+                    <li><span id="check"><i class="fas fa-check"></i></span>User Limit 0</li>
+                    <li><span>x</span>Disable Logged History</li>
+                    <li><span >x</span>Disable Coupon Applicable</li>
+                </ul>
+                <button class="secondary">Order Now</button>
+            </div>
+            <div class="card">
+                <h5>test</h5>
+                <hr>
+                <h3 class="price-tag"><sup>$</sup>  300  <span id="new">/Monthly</span></h3>
+
+                <ul>
+                    <li><span id="check"><i class="fas fa-check"></i></span>User Limit 50</li>
+                    <li><span id="check"><i class="fas fa-check"></i></span>Enabled Logged History</li>
+                    <li><span id="check"><i class="fas fa-check"></i></span>Enabled Coupon Applicable</li>
+                </ul>
+                <button class="secondary">Order Now</button>
+            </div>
+            <div class="card">
+                <h5>test limit</h5>
+                <hr>
+                <h3 class="price-tag"><sup>$</sup>  2000  <span id="new">/Monthly</span></h3>
+
+                <ul>
+                    <li><span id="check"><i class="fas fa-check"></i></span>User Limit 50</li>
+                    <li><span id="check"><i class="fas fa-check"></i></span>Enabled Logged History</li>
+                    <li><span >x</span>Disable Coupon Applicable</li>
+                </ul>
+                <button class="secondary">Order Now</button>
+            </div>
+            <div class="card">
+                <h5>member premium</h5>
+                <hr>
+                <h3 class="price-tag"><sup>$</sup>  299  <span id="new">Monthly</span></h3>
+
+                <ul>
+                    <li><span id="check"><i class="fas fa-check"></i></span>User Limit 0</li>
+                    <li><span>x</span>Disable Logged History</li>
+                    <li><span >x</span>Disable Coupon Applicable</li>
+                </ul>
+                <button class="secondary">Order Now</button>
+            </div>
+            <div class="card">
+                <h5>Adult Membership</h5>
+                <hr>
+                <h3 class="price-tag"><sup>$</sup>  201  <span id="new">Yearly</span></h3>
+
+                <ul>
+                    <li><span id="check"><i class="fas fa-check"></i></span>User Limit 1</li>
+                    <li><span id="check"><i class="fas fa-check"></i></span>Enable Logged History</li>
+                    <li><span >x</span>Disable Coupon Applicable</li>
+                </ul>
+                <button class="secondary">Order Now</button>
+            </div>
+          
+           </div>
+        </div>
+    </div>
+
+    <div class="features" id="features">
+      <div class="content container">
+        <div class="head">
+          <h3>Core Features</h3>
+          <p>Core Modules For Your Business</p>
+        </div>
+        <div class="d-flex text-center">
+          <div class="col-md-4">
+            <img src="images/img-1.png" alt="">
+            <h5>Event <span><i class="icon-link"></i></span></h5>
+            <p>Membership Management Software is a powerful tool designed to help organizations streamline and automate all aspects of managing their members.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/img-1.png" alt="">
+            <h5>Event <span><i class="icon-link"></i></span></h5>
+            <p>Membership Management Software is a powerful tool designed to help organizations streamline and automate all aspects of managing their members.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/img-2.png" alt="">
+            <h5>Dashboard <span><i class="icon-link"></i></span></h5>
+            <p>Membership Management Software is a powerful tool designed to help organizations streamline and automate all aspects of managing their members.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/img.png" alt="">
+            <h5>Member <span><i class="icon-link"></i></span></h5>
+            <p>Membership Management Software is a powerful tool designed to help organizations streamline and automate all aspects of managing their members.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/img.png" alt="">
+            <h5>Member <span><i class="icon-link"></i></span></h5>
+            <p>Membership Management Software is a powerful tool designed to help organizations streamline and automate all aspects of managing their members.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="testimonials">
+        <div class="content2 container">
+            <div class="head">
+            <h3>What Our Customers Say About Us</h3>
+        <p>We’re proud of the impact our software has had on businesses just like yours. Hear directly from our customers about how our solutions have made a
+difference in their day-to-day operations</p>
+           </div>
+           <div class="grid">
+            <div>
+                <div class="d-flex">
+                    <img src="images/img-persona.png" alt="">
+                    <h6>Lenore Becker</h6>
+                </div>
+                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque antevel mi. Quisque ut nisi. Nulla porta dolor. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc.</p>
+            </div>
+            <div>
+                <div class="d-flex">
+                    <img src="images/img-persona.png" alt="">
+                    <h6>Oleg Lucas</h6>
+                </div>
+                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque antevel mi. Quisque ut nisi. Nulla porta dolor. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc.</p>
+            </div>
+            <div>
+                <div class="d-flex">
+                    <img src="images/img-persona.png" alt="">
+                    <h6>Rafael Carver</h6>
+                </div>
+                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend.</p>
+            </div>
+            <div>
+                <div class="d-flex">
+                    <img src="images/img-persona.png" alt="">
+                    <h6>Kalia Middleton</h6>
+                </div>
+                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Vestibulum rutrum, mi nec elementum.</p>
+             </div>
+            <div>
+                <div class="d-flex">
+                    <img src="images/img-persona.png" alt="">
+                    <h6>Damian Morales <br><span id="new">New</span></h6>
+                </div>
+                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Vestibulum rutrum.</p>
+            </div>
+            <div>
+                <div class="d-flex">
+                    <img src="images/img-persona.png" alt="">
+                    <h6>Jerome Mccoy</h6>
+                </div>
+                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Vestibulum rutrum, mi nec elementum vehicula, eros quamgravida nisl, id fringilla neque antevel mi. Quisque ut nisi. Nulla porta dolor. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc.</p>
+            </div>
+            <div>
+                <div class="d-flex">
+                    <img src="images/img-persona.png" alt="">
+                    <h6>Edan Rodriguez</h6>
+                </div>
+                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Vestibulum rutrum, mi nec elementum vehicula, eros quamgravida nisl, id fringilla neque antevel mi. Quisque ut nisi. Nulla porta dolor. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc.</p>
+            </div>
+            <div>
+                <div class="d-flex">
+                    <img src="images/img-persona.png" alt="">
+                    <h6>Zenaida</h6>
+                </div>
+                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Vestibulum rutrum, mi nec elementum vehicula, eros quamgravida nisl, id fringilla neque antevel mi. Quisque ut nisi. Nulla porta dolor. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc.</p>
+            </div>
+           </div>
+        </div>
+    </div>
+
+   <div class="choose-us">
+  <div class="content2">
+    <div class="d-flex">
+      <div class="text-section">
+        <h2>Reason to<br>Choose US</h2>
+      </div>
+      <div class="feature">
+        <h2>Exceptional Support</h2>
+        <h2>Scalable and Future-Proof</h2>
+        <h2 class="highlight">Security You Can Trust</h2>
+        <h2>User-Friendly Interface</h2>
+        <h2>Innovation at Its Core</h2>
+      </div>
+      <div class="icon">
+        <img src="images/Icon.png" alt="Icon">
+      </div>
+    </div>
+  </div>
+   </div>
+
+    <div class="faq">
+  <div class="content2 container">
+    <div class="head">
+      <h3>Frequently Asked Questions (FAQ)</h3>
+      <p>Please refer the Frequently ask question for your quick help</p>
+    </div>
+    <section class="faq-section">
+      <details open>
+        <summary>What features does your software offer?</summary>
+        <div class="faq-content">
+          <p>Our software provides a range of features including automation tools, real-time analytics, cloud-based access, secure data storage, seamless integrations, and customizable solutions tailored to your business needs.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Is your software easy to use?</summary>
+        <div class="faq-content">
+          <p>Yes! Our software is designed to be intuitive and user-friendly for both beginners and experienced users.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Can I integrate your software with my existing systems?</summary>
+        <div class="faq-content">
+          <p>Yes, our software supports seamless integration with a variety of existing business systems and third-party platforms.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Is customer support available?</summary>
+        <div class="faq-content">
+          <p>Absolutely! Our dedicated support team is available 24/7 to assist with any questions or issues.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Is my data secure with your software?</summary>
+        <div class="faq-content">
+          <p>Yes, we implement industry-standard security protocols and encryption to protect your data.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Can I customize the software to fit my business needs?</summary>
+        <div class="faq-content">
+          <p>Yes, our software offers a high level of customization to meet your unique business requirements.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>What types of businesses can benefit from your software?</summary>
+        <div class="faq-content">
+          <p>Our software is ideal for small, medium, and large businesses across various industries.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Is there a free trial available?</summary>
+        <div class="faq-content">
+          <p>Yes, we offer a 14-day free trial with full access to all features.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Do I need technical expertise to use the software?</summary>
+        <div class="faq-content">
+          <p>No technical skills required! Our intuitive interface ensures a smooth experience.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>How often is the software updated?</summary>
+        <div class="faq-content">
+          <p>We provide regular updates every quarter and as needed for improvements and security.</p>
+        </div>
+      </details>
+    </section>
+  </div>
+</div>
+
+  </main>
+  <footer>
+    <div class="content container">
+        <div>
+            <img src="images/ogalogo3 (1) 3.png" alt="footer Logo" class="logo" />
+            <h6>About Demo System</h6>
+            <p>Clublink SaaS is a membership management software that helps you manage your club's members, events, and finances.</p>
+        </div>
+        <div>
+            <h6 class="fot">Quick Links</h6>
+            <ul>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Documentation</a></li>
+                <li><a href="">Changelog</a></li>
+                <li><a href="">Support</a></li>
+            </ul>
+        </div>
+        <div>
+            <h6 class="fot">Help</h6>
+            <ul>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Documentation</a></li>
+                <li><a href="">Changelog</a></li>
+                <li><a href="">Support</a></li>
+            </ul>
+        </div>
+        <div>
+            <h6 class="fot">Core System</h6>
+            <ul>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Documentation</a></li>
+                <li><a href="">Changelog</a></li>
+                <li><a href="">Support</a></li>
+            </ul>
+        </div>
+    </div>
+     <div class="foot-bot">
+        <div class="content container">
+            <p>Copyright 2025 Clublink SaaS</p>
+        </div>
+    </div>
+  </footer>
+</body>
+ <!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</html>
