@@ -12,3 +12,20 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+const featureItems = document.querySelectorAll('.feature-item');
+
+featureItems.forEach(item => {
+  item.addEventListener('click', () => {
+    // Force synchronous layout before changes
+    document.body.classList.contains('active');
+    
+    // Remove active class from all items
+    featureItems.forEach(i => i.classList.remove('active'));
+    
+    // Add active class to clicked item
+    requestAnimationFrame(() => {
+      item.classList.add('active');
+    });
+  });
+});

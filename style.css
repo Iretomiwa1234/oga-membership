@@ -41,6 +41,10 @@ body {
     color: #212529;
     width: 100%;
 }
+h1{
+font-size: 50px;
+line-height: 120%;
+}
 h1,
 h2,
 h3,
@@ -52,15 +56,19 @@ h6 {
     margin-bottom: 16px;
 }
 h3 {
-    font-size: 1.8rem;
+    font-size: 34px;
     font-weight: 600;
 }
 .subtext {
     font-size: 18px;
 }
+h5{
+    font-size: 20px;
+    line-height: 24px;
+}
 p {
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 15px;
     line-height: 24px;
     margin-bottom: 20px;
 }
@@ -80,6 +88,7 @@ p {
     font-size: 14px;
     color: rgb(0 0 0 / 0.55);
     padding: 8px auto;
+    line-height: 21px;
     transition: 0.3s;
 }
 .nav-link.active,
@@ -100,12 +109,13 @@ p {
 .fot,
 footer p,
 footer ul li a {
-    font-size: 12px;
+    font-size: 14px;
 }
 .primary:hover {
     background-color: #e63900;
     color: #fff;
     text-decoration: none;
+    line-height: 21px;
 }
 .mobile-nav-list {
     display: flex;
@@ -167,7 +177,7 @@ footer h6 {
     color: #fff;
 }
 footer p {
-    line-height: 1.6;
+    line-height: 21px;
 }
 .empowerment .texts ul,
 .pricing li,
@@ -204,7 +214,10 @@ footer ul li a:hover {
 .sub-hero {
     padding: 80px 0;
 }
-.sub,
+.sub{
+     gap: 10px;
+    display: flex;
+}
 .sub-hero .d-flex {
     gap: 20px;
     display: flex;
@@ -232,7 +245,6 @@ footer ul li a:hover {
     align-items: center;
     gap: 50px;
     flex-wrap: wrap;
-    gap: 20px;
 }
 .sub-hero .content img {
     width: 100%;
@@ -268,8 +280,8 @@ footer ul li a:hover {
     padding-left: 36px;
     margin-bottom: 12px;
     color: #212529;
-    font-size: 0.92rem;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 24px;
 }
 .empowerment .texts ul li::before {
     content: "✓";
@@ -282,7 +294,7 @@ footer ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 700;
     position: absolute;
     left: 0;
@@ -330,6 +342,7 @@ footer ul li a:hover {
     width: 300px;
     height: auto;
 }
+
 .features .content.container::-webkit-scrollbar {
     width: 0;
     height: 0;
@@ -352,6 +365,29 @@ footer ul li a:hover {
     height: auto;
     margin-bottom: 20px;
 }
+.feature-item {
+    opacity: 0.6;
+}
+.feature-item.active {
+  opacity: 1;
+  transform: scale(1.05);
+    transition: transform 0.3s, opacity 0.3s;
+}
+.feature-item,
+.feature-item * {
+  transition: none !important; /* Remove transitions */
+  animation: none !important; /* Remove animations */
+}
+.feature-item h5,
+.feature-item p {
+  color: #999; 
+}
+
+.feature-item.active h5,
+.feature-item.active p {
+  color: #212529;
+}
+
 .faq-section details {
     border-top: 1px solid #ddd;
     cursor: pointer;
@@ -359,7 +395,7 @@ footer ul li a:hover {
 .faq-content {
     margin-top: 10px;
     color: rgb(33 37 41 / 0.75);
-    line-height: 1.6;
+    line-height: 21px;
 }
 .faq-section summary {
     font-weight: 600;
@@ -410,6 +446,7 @@ footer ul li a:hover {
 .pricing .card h5 {
     font-size: 20px;
     margin-bottom: 6px;
+    line-height: 28.8px;
     font-weight: 500;
 }
 .pricing .card hr {
@@ -420,31 +457,28 @@ footer ul li a:hover {
     margin: 4px auto !important;
 }
 .price-tag {
-    font-size: 2rem;
+    font-size: 40px;
     font-weight: 700;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 3px;
     justify-content: center;
 }
 .price-tag sup {
-    font-size: 1.5rem;
+    font-size: 30px;
     vertical-align: super;
 }
 .pricing ul {
     padding: 20px 0;
 }
-.pricing .grid {
-    align-items: center;
-    justify-content: center;
-}
+
 .pricing li {
     margin-bottom: 10px;
     border-bottom: 1px solid #ddd;
     color: #212529;
-    font-size: 0.9rem;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 21px;
     padding-bottom: 8px;
 }
 .pricing li:last-child {
