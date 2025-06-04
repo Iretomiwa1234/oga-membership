@@ -285,14 +285,14 @@ footer ul li a:hover {
 }
 .empowerment .texts {
     flex: 1;
-    max-width: 440px;
+    max-width: 470px;
 }
 .empowerment .texts ul li {
     position: relative;
     padding-left: 36px;
     margin-bottom: 12px;
     color: #212529;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 24px;
 }
 .empowerment .texts ul li::before {
