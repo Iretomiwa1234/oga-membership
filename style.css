@@ -56,14 +56,14 @@ h6 {
     margin-bottom: 16px;
 }
 h3 {
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 600;
+    line-height: 30px;
 }
 .subtext {
-    font-size: 18px;
+    font-size: 16px;
 }
 h5{
-    font-size: 20px;
     line-height: 24px;
 }
 p {
@@ -85,7 +85,7 @@ p {
     height: 30px;
 }
 .nav-link {
-    font-size: 14px;
+    font-size: 13px;
     color: rgb(0 0 0 / 0.55);
     padding: 8px auto;
     line-height: 21px;
@@ -109,7 +109,7 @@ p {
 .fot,
 footer p,
 footer ul li a {
-    font-size: 14px;
+    font-size: 13px;
 }
 .primary:hover {
     background-color: #e63900;
@@ -128,8 +128,8 @@ footer ul li a {
     margin: 10px;
 }
 .mobile-nav-list .nav-link {
-    font-size: 15px;
-    padding: 10px 0;
+    font-size: 14px;
+    padding: 8px 0;
     display: block;
 }
 .btn-close {
@@ -222,28 +222,40 @@ footer ul li a:hover {
     gap: 20px;
     display: flex;
 }
+
 .hero-section {
-    overflow-x: hidden;
-    padding-top: 80px;
+  background-image: url(images/hero-section.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 130px;
+  display: flex;
+  align-items: center;
 }
-.text-content {
-    margin: 0 auto;
-    padding-left: 160px;
-    padding-right: 30px;
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  gap: 50px;
 }
+
 .pulse-img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
+
 .hero-img {
-    max-width: 100%;
-    height: auto;
+  height: 100%;
+  width: 650px;
 }
+
 .d-flex {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 60px;
     flex-wrap: wrap;
 }
 .sub-hero .content img {
@@ -273,14 +285,14 @@ footer ul li a:hover {
 }
 .empowerment .texts {
     flex: 1;
-    min-width: 300px;
+    max-width: 440px;
 }
 .empowerment .texts ul li {
     position: relative;
     padding-left: 36px;
     margin-bottom: 12px;
     color: #212529;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
 }
 .empowerment .texts ul li::before {
@@ -366,7 +378,7 @@ footer ul li a:hover {
     margin-bottom: 20px;
 }
 .feature-item {
-    opacity: 0.6;
+    opacity: 0.9;
 }
 .feature-item.active {
   opacity: 1;
@@ -515,9 +527,13 @@ button.secondary:hover {
     .features,
     .offers,
     .pricing,
-    .sub-hero {
+    .sub-hero,
+    .hero-section {
         padding: 40px 20px;
-    }
+    } 
+.hero-content {
+  display: block;
+} 
     .hero section {
         padding-top: 30px;
     }
@@ -547,7 +563,6 @@ button.secondary:hover {
     .d-flex {
         flex-direction: column;
         align-items: center;
-        text-align: center;
     }
     .card {
         width: 100%;
